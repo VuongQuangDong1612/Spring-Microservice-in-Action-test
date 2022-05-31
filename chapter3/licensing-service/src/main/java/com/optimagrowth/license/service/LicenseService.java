@@ -40,6 +40,7 @@ public class LicenseService {
 
 	public String updateLicense(License license, String organizationId){
 		System.out.println("Test");
+		System.out.println("Test2");
 		String responseMessage = null;
 		if(!StringUtils.isEmpty(license)) {
 			license.setOrganizationId(organizationId);
